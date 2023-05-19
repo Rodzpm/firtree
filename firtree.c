@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(void)
+int main(int argc, char *argv[])
 {
-    printf("Voilà le firtree\n");
+    printf("oui voilà c'est %d\n", argv[1]);
+    return 0;
 }
